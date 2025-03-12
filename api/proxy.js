@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://www.google.com/";//https://google-ten-blue.vercel.app/
+  let target = "https://google-ten-blue.vercel.app/";//
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
